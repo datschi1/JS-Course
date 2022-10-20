@@ -1,6 +1,7 @@
-let cash = 20;
-let price = 30;
+let cash = 50;
+let price = 40;
+let isStoreOpen = true;
 
-if (cash<price){
-    console.log(`you have due ${price-cash} usd`)
-}
+let answer = cash>price && isStoreOpen ? 'give reciept' : 'do not give receipt'
+
+console.log(answer)
