@@ -1,4 +1,6 @@
-let celsius = 10;
-let farenheit = celsius * 1.8 + 32
+let cash = 20;
+let price = 30;
 
-console.log(farenheit)
+if (cash<price){
+    console.log(`you have due ${price-cash} usd`)
+}
