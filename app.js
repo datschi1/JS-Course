@@ -1,5 +1,9 @@
-function convertTemperature(celcius) {
-    console.log(celcius*1.8 + 32)
+arr1 = ['A+','A','Fail']
+arr2 = ['Fail', 'Fail','B']
+
+function filterFails(array){
+    return array.filter(element => element != "Fail")
 }
 
-convertTemperature(10);
+console.log(filterFails(arr1))
+console.log(filterFails(arr2))
