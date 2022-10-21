@@ -1,5 +1,5 @@
-let strongo = "Frontend Simplified"
-
-for (let i = 0; i<=strongo.length - 1; i++){
-    console.log(`"${strongo[i]}"`)
+function convertTemperature(celcius) {
+    console.log(celcius*1.8 + 32)
 }
+
+convertTemperature(10);
