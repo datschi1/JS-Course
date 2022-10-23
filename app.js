@@ -1,7 +1,8 @@
-function loggedSubscribed(log,subscribe){
-    if (log === "logged_in" && subscribe === "Subscribed"){
-        return true
-    }
+function filterFalsy(x,y){
+    if (!x){
+        return x
+    }  
+    return y
 }
 
-console.log(loggedSubscribed("logged_in","Subscribed"))
+console.log(filterFalsy(1,"puppy"))
